@@ -9,7 +9,6 @@
 <body>
     <section class="nav-bar">
     <div class="left-placeholder"></div>   
-
             <ul>
                 <li>Sākums</li>
                 <li>Produkti</li>
