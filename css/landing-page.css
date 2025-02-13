@@ -5,7 +5,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    position: fixed;
+    /* position: fixed;  fucks with the flow of the page */ 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,4 +36,51 @@
     color: white;
     font-weight: bold;
     font-size: 16px;
+}
+
+/*  deals part */
+
+.deals {
+    padding: 15em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.deals-left {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+    margin-right: 4em;
+}
+
+.deals-left h2 {
+    margin-bottom: 1em;
+    font-size: 34px;
+}
+
+.deals-left h4 {
+    color: #CCA43B;
+    margin-bottom: 2em;
+}
+
+.deals-left p {
+    margin-bottom: 1.5em;
+}
+
+.deals-left button {
+    padding: 0.5em 4em 0.5em 4em;
+    background-color: #CCA43B;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 1em;
+}
+
+.deals-right {
+    margin-left: 4em;
 }
