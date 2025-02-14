@@ -38,3 +38,7 @@ include('nav-bar.php');
     </section>
 </body>
 </html>
+
+<?php
+    include('footer.php');
+?>
