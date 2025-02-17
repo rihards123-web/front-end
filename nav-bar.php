@@ -10,12 +10,12 @@
     <section class="nav-bar">
     <div class="left-placeholder"></div>   
             <ul>
-                <li>Sākums</li>
+                <li><a href="landing-page.php">Sākums</a></li>
                 <li>Produkti</li>
                 <li>Par mums</li>
             </ul>  
         <div class="nav-icons">
-            <div class="profile-icon"> <img src="media/Profile.png" alt=""></div>
+            <div class="profile-icon"> <a href="sign-up.php"><img src="media/Profile.png" alt=""></a></div>
             <div class="cart-icon"><img src="media/Cart.png" alt=""></div>
         </div>
     </section>
