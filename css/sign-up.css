@@ -1,7 +1,7 @@
-html, body {
+ body {
     height: 100vh; 
     display: flex;
-    flex-direction: column; /* Makes content stack vertically */
+    flex-direction: column; 
     overflow: hidden;
 }
 

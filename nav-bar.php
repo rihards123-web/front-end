@@ -15,7 +15,14 @@
                 <li>Par mums</li>
             </ul>  
         <div class="nav-icons">
-            <div class="profile-icon"> <a href="sign-up.php"><img src="media/Profile.png" alt=""></a></div>
+            <div class="dropdown">
+                <div class="profile-icon"> <img src="media/Profile.png" alt="" class="dropimg">
+                    <div class="dropdown-content">
+                        <a href="sign-up.php">Reģistrēties</a>
+                        <a href="#">Logoties</a>
+                    </div>
+                </div>
+            </div>
             <div class="cart-icon"><img src="media/Cart.png" alt=""></div>
         </div>
     </section>
