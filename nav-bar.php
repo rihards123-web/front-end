@@ -19,7 +19,7 @@
                 <div class="profile-icon"> <img src="media/Profile.png" alt="" class="dropimg">
                     <div class="dropdown-content">
                         <a href="sign-up.php">Reģistrēties</a>
-                        <a href="#">Logoties</a>
+                        <a href="log-in.php">Logoties</a>
                     </div>
                 </div>
             </div>
