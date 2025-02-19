@@ -14,19 +14,17 @@ include ('nav-bar.php');
     <section class="container"> 
     <div class="signin-container">
         <div class="header">
-            <h2>Sign Up</h2>
-            <h4>Create an account or <a href="log-in.php">Sign in</a></h4> 
+            <h2>Log in!</h2>
+            <h4>Don't have an account? <a href="sign-up.php">Create one!</a></h4> 
         </div>
         <div class="form-container">
-            <label for="email">Email</label>
-            <input type="email" id="email">
             <label for="username">Username</label>
             <input type="username" name="" id="username">
             <label for="password">Password</label>
             <input type="password" id="password">
         </div>
         <div class="signin-button">
-            <button>Sign up</button>
+            <button>Log in</button>
         </div>
     </div>
     </section>
